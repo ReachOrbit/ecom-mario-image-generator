@@ -24,24 +24,7 @@ The Pixel Art Generator is a Node.js application that processes CSV files contai
    npm install
    ```
 
-3. **Environment Variables**: Create a `.env` file in the root directory and configure the following variables:
-   ```plaintext
-   PORT=3000
-   DISCORD_API_URL=your_discord_api_url
-   DISCORD_APPLICATION_ID=your_discord_application_id
-   DISCORD_BOT_TOKEN=your_discord_bot_token
-   DISCORD_CHANNEL_ID=your_discord_channel_id
-   SLACK_BOT_TOKEN=your_slack_bot_token
-   SLACK_SIGNING_SECRET=your_slack_signing_secret
-   DIGITAL_OCEAN_SPACES_ENDPOINT=your_digital_ocean_spaces_endpoint
-   DIGITAL_OCEAN_SPACES_ACCESS_KEY=your_digital_ocean_spaces_access_key
-   DIGITAL_OCEAN_SPACES_SECRET=your_digital_ocean_spaces_secret
-   DIGITAL_OCEAN_SPACES_REGION=your_digital_ocean_spaces_region
-   DIGITAL_OCEAN_SPACES_BUCKET=your_digital_ocean_spaces_bucket
-   DIGITAL_OCEAN_CDN_ENDPOINT=your_digital_ocean_cdn_endpoint
-   IMAGINE_API_TOKEN=your_imagine_api_token
-   PHOTO_ROOM_API_KEY=your_photo_room_api_key
-   ```
+3. **Environment Variables**: Create a `.env` file in the root directory, or alternatively, clone `.env.example` and rename it to `.env`.
 
 4. **Run the application**:
    ```bash
